@@ -1,0 +1,25 @@
+command line:
+
+npm install -g http-server
+http-server                                 - built in http server runs on 8080 default. http-server -p 3000
+
+
+npm init
+npm install gulp --save-dev
+npm install -g gulp
+
+## create gulpfile.js
+
+npm install gulp-concat --save-dev         - Plugin for concatinating files
+
+npm install gulp-uglify --save-dev         - Plugin for minifying code
+
+npm install gulp-rename --save-dev         - Plugin/method(?) for renaming files(?)
+
+npm install gulp-sass --save-dev           - SASS plugin
+
+npm install gulp-sourcemaps --save-dev     - Sourcemap plugin, works for css and js      *** CLEAR CACHE ***
+
+npm install --save-dev gulp-autoprefixer
+
+npm install --save-dev del                 - Used to delete files, cleaning operations.

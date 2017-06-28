@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>What Must One Do?</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+    <link rel="stylesheet" href="css/application.css">
+  </head>
+  <body>
+    <div class="container">
+      <div class="main">
+        <div class="incFrame">
+          <h3>Tasks To Complete</h3>
+          <table>
+            <tbody id="incTasks">
+              <tr class="topRow">
+                <td class="trans">
+                </td>
+                <td>
+                  Task
+                </td>              
+                <td>
+
+                </td>
+              </tr>
+              <tr class="taskRow">
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>
+                  <input class="description" maxlength="30" />
+                  <label>Shopping</label>
+                </td>              
+                <td>
+                  <button class="editBtn">Save</button>
+                  <button class="deleteBtn">Delete</button>
+                </td>
+              </tr>              
+              <tr class="taskRow">
+                <td>
+                  <input type="checkbox" />
+                </td>
+                <td>
+                  <input class="description" maxlength="30" />
+                  <label>Shopping</label>
+                </td>              
+                <td>
+                  <button class="editBtn">Save</button>
+                  <button class="deleteBtn">Delete</button>
+                </td>
+              </tr>
+              
+            </tbody>  
+          </table>
+        </div>
+        <div class="compFrame">
+          <h3>Completed Tasks</h3>
+          <table id="compTasks">
+            <tr>
+              <td>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <input class="description" maxlength="30" />
+                <label>Shopping</label>
+              </td>              
+              <td>
+                <button class="editBtn">Save</button>
+                <button class="deleteBtn">Delete</button>
+              </td>
+            </tr>
+            <tr class="editMode">
+              <td>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <input class="description" maxlength="30" />
+                <label>Shopping</label>
+              </td>              
+              <td>
+                <button class="editBtn">Edit</button>
+                <button class="deleteBtn">Delete</button>
+              </td>
+            </tr>
+            <tr class="editMode">
+              <td>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <input class="description" maxlength="30" />
+                <label>Shopping</label>
+              </td>              
+              <td>
+                <button class="editBtn">Edit</button>
+                <button class="deleteBtn">Delete</button>
+              </td>
+            </tr>
+            <tr class="editMode">
+              <td>
+                <input type="checkbox" />
+              </td>
+              <td>
+                <input class="description" maxlength="30" />
+                <label>Shopping</label>
+              </td>              
+              <td>
+                <button class="editBtn">Edit</button>
+                <button class="deleteBtn">Delete</button>
+              </td>
+            </tr>
+          </table>
+        </div>
+      </div>
+
+
+
+
+
+      <!-- SIDEBAR -->
+
+      <div class="sidebar">
+        <table>
+          <tr class="topRow">
+            <td>
+
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <button id="addBtn">Add Task</button>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </div>
+
+
+    
+    <script    src="https://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
+  <script src="js/app.js"></script>
+  </body>
+</html>
